@@ -15,7 +15,7 @@ class Vehicule {
     }
 }
 
-class Velo extends Vehicule {
+class Bike extends Vehicule {
 
     constructor(couleur, roues, marque, rayonRoues, typePeinture) {
         super(couleur, roues, marque);
@@ -28,7 +28,7 @@ class Velo extends Vehicule {
     }
 }
 
-class Voiture extends Vehicule {
+class Car extends Vehicule {
 
     constructor(couleur, roues, marque, assurance, proprietaire) {
         super(couleur, roues, marque);
@@ -44,5 +44,5 @@ class Voiture extends Vehicule {
     }
 }
 
-let Ford = new Voiture("turquoise", "4", "Ford", "AXA", "moi");
+let Ford = new Car("turquoise", "4", "Ford", "AXA", "moi");
 Ford.start();
